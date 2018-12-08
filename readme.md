@@ -1,5 +1,5 @@
 
-** Deep Convolutional Neural Networks for Thermal Infrared Object Tracking **
+**Deep Convolutional Neural Networks for Thermal Infrared Object Tracking**
 ![Alt text](./images/MCFTS_framework.jpg)
 ## Abstract
 We propose a correlation filter based ensemble tracker with multi-layer convolutional features for thermal infrared tracking (**MCFTS**). Firstly, we use pre-trained convolutional neural networks to extract the features of the multiple convolution layers of the thermal infrared target. Then, a correlation filter is used to construct multiple weak trackers with the corresponding convolution layer features. These weak trackers give the response maps of the target’s location. Finally, we propose an ensemble method that coalesces these response maps to get a stronger one. Furthermore, a simple but effective scale estimation strategy is exploited to boost the tracking accuracy. 
